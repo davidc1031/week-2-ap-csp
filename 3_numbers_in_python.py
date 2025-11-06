@@ -1,4 +1,3 @@
-
 # ----------------------------------------
 #  Numbers in Python
 # ----------------------------------------
@@ -118,9 +117,3 @@ from math import *
 print(f"Square Root of 16: {sqrt(16)}")
 print(f"Ceiling of Pi: {ceil(pi)}")
 print(f"Floor of Pi: {floor(pi)}")
-
-
-
-
-
-
