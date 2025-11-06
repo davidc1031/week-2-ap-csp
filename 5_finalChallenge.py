@@ -17,3 +17,21 @@
 # Well, try to do it on your own, and if it gets complicated, don’t worry, we will solve it together in the next lecture.
 
 # Cheers and good luck.
+
+name = input("Hello user, what is your name?: ")
+print(f"Hello {name}, I am going to ask you 2 very simple questions to figure out your brewery name.")
+favorite_word = input("What is your favorite word?: ")
+favorite_number = int(input("Pick a whole number between 1-50: "))
+
+if 0 <= favorite_number <= 10:
+    print(f"Your beer name is {favorite_word}Life")
+elif 11 <= favorite_number <= 20:
+    print(f"Your beer name is {favorite_word}Max")
+elif 21 <= favorite_number <= 30:
+    print(f"Your beer name is {favorite_word}wieser")
+elif 31 <= favorite_number <= 40:
+    print(f"Your beer name is {favorite_word}Lite")
+elif 41 <= favorite_number <= 50:
+    print(f"Your company name is {favorite_word}High")
+elif favorite_number >= 51:
+    print("Number too high!")
